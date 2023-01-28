@@ -8,9 +8,10 @@ document.getElementById('login-btn').addEventListener('click', function () {
 
 
     if (email == 'robin@gmail.com' && password == 'robin') {
-        console.log('Ready To GO');
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('You are not authorized to go further');
+        alert('You are not authorized to go further');
     }
 })
+

@@ -15,8 +15,42 @@
         </h1>
     </header>
     <main>
-
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white rounded-xl">
+                <div class="bg-fuchsia-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Diposite</h4>
+                    <h2 class="text-5xl">$0</h2>
+                </div>
+                <div class="bg-amber-700 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <h2 class="text-5xl">$0</h2>
+                </div>
+                <div class="bg-lime-800 p-8 rounded-xl">
+                    <h4 class="text-2xl">Balance</h4>
+                    <h2 class="text-5xl">$1250</h2>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white rounded-xl">
+                <div class="bg-lime-600 p-8 rounded-xl">
+                    <h4 class="text-2xl">Diposite Here</h4>
+                    <input id="input-deposite" class="w-2/4 text-black block mb-2 px-3 rounded-sm  " type="text" name=""
+                        placeholder="Amount" id="">
+                    <button id="deposite-btn"
+                        class="bg-sky-600 mt-3 px-6 py-2 text-white font-medium rounded-lg hover:bg-orange-600">Submit</button>
+                </div>
+                <div class="bg-red-600 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <input id="input-withdraw" class="w-2/4 block text-black border-none mb-2 px-3 rounded-sm  "
+                        type="text" name="" placeholder="Amount" id="">
+                    <button id="login-btn"
+                        class="bg-sky-600 mt-3 px-6 py-2 text-white font-medium rounded-lg hover:bg-orange-600">Submit</button>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+<script src="JS/depositeWithdraw.js"></script>
 
 </html>
